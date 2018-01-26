@@ -27,6 +27,5 @@ void Controller :: start()
     cout << &name << endl;
     
     cout << "Hello! " << "How are you today? " << "I am doing well." << endl;
-    
 }
 
