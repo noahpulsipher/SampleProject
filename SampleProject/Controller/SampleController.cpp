@@ -15,18 +15,21 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-//    string name = "Noah Pulsipher";
-//    cout << name << endl;
-//
-//    for (int num = 13; num < 31; num ++)
-//    {
-//        cout << num << ",";
-//    }
-//    cout << 31 << endl;
-//
-//    cout << &name << endl;
-//
-//    cout << "Hello! " << "How are you today? " << "I am doing well." << endl;
+    //Controller output assignment.
+        string name = "Noah Pulsipher";
+        cout << name << endl;
+    
+        for (int num = 13; num < 31; num ++)
+        {
+            cout << num << ",";
+        }
+        cout << 31 << endl;
+    
+        cout << &name << endl;
+    
+    cout << "Hello! " << "How are you today? " << "I am doing well." << endl;
+    
+    //Array assignment.
     int const static numbercount = 11;
     int numbers[numbercount] = {0,1,2,3,4,5,6,7,8,9,10};
     for (int num = 0; num < numbercount; num++)
